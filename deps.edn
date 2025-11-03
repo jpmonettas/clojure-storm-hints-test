@@ -1,0 +1,5 @@
+{:paths ["src" "src-java"]
+ :aliases
+ {:1.12-storm {:classpath-overrides {org.clojure/clojure nil}
+               :extra-deps {com.github.flow-storm/clojure {:mvn/version  "1.12.3-3"}
+                            com.github.flow-storm/flow-storm-dbg {:mvn/version "4.5.9"}}}}}
